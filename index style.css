@@ -1,0 +1,330 @@
+       		
+		
+		/*formatação do corpo da página*/
+		body {
+        background-image: url("21.jpg");
+		background-repeat:repeat;
+		background-position: center center;
+		background-attachment:fixed;
+		
+		}
+      	
+        /*formatação do container*/		
+		#container{
+        background: #FFFFFF;
+		margin: 50px auto;
+		height:462em;
+        width: 60em;/*Largura, do container.*/
+        border: 1px solid #9ACD32;/*Largura, tipo e cor da borda do container.*/
+        /*border-radius:0px 0px 0px 0px;*/
+		}
+		
+		/*formatação do container header.*/		
+        #header { 
+        background-image: url("21.jpg");		
+        padding-top: 1px;/*Espaçamento do conteúdo do <h1> até a borda superior do container header.*/
+        padding-left: 1px;/*Espaçamento do conteúdo do <h1> até a borda esquerda do container header.*/
+        padding-right: 1px;/*Espaçamento do conteúdo do <h1> até a borda direita do container header.*/
+        padding-bottom: 30px;/*Espaçamento do conteúdo do <h1> até a borda inferior do container header.*/
+	    height: 12em;
+        margin:15px 15px 15px 15px;
+		border:1px solid #9ACD32;
+		/*border-radius:10px 10px 10px 10px;*/
+		
+		}
+		/*formatação dos títulos do cabeçalho.*/
+		#header h1{
+        text-align:left;
+		color:black; 
+		font-style:normal;
+		font-size:5em;
+        font-family:Vivaldi;
+		position:none;
+        padding-top: 1px; 
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        display:inline;
+		}
+		#header h2{
+        text-align:left;
+		color:red; 
+		font-style:normal;
+		font-size:1em;
+        font-family:Vivaldi;
+		position:none;
+        padding-top: 1px; 
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        display:inline;
+		}		
+		/*formatação do container mainnav.*/      
+		#mainnav{
+       	background-image: url("21.jpg");
+		background-repeat:repeat;
+		background-position: center center;
+		background-attachment:fixed;
+		
+        height: 50px;/*Halura do container mainnav.*/
+        border:1px solid #9ACD32;/*Largura, tipo e cor da borda da mainnav.*/
+		border-radius:0px 0px 0px 0px;/*Arredondamento dos cantos do container mainnav.*/  
+		margin:15px 15px 15px 15px;/*Distância entre as bordas do container mainnav e os container superior e inferior e as laterias esquerda e direita do contents.*/
+		padding-top: 0px; 
+        padding-left: 10px;/*Distância lateral entre o botão mais a esquerda e a borda esquerda da mainnav.*/
+        padding-right: 0px;
+        padding-bottom: 0px;
+		}
+		
+		#mainnav li {
+        
+		list-style: none;/*Exibiria a lista com marcadores circulares com o atributo "circle".*/
+       	display: inline;/*Exibição dos ítens da lista em linha.*/
+       	margin:1px 1px 1px 1px;
+		
+		}
+		
+		#mainnav li a {
+        font: 15px Verdana, sans-serif;
+        background-color:#DDC797;        
+        color: black;/*Cor da fonte dos botões do menu horizontal*/
+        border-radius: 4px 4px 4px 4px;/*arredondamento dos cantos dos botões horizontais*/
+		margin:1px 1px 1px 1px;
+		padding-top: 5px;/*Distância do texto à borda superior do botão dentro da caixa do mainnav.*/
+        padding-left: 5px;/*Distância do texto à borda esquerda do botão dentro da caixa do mainnav.*/
+        padding-right: 5px;/*Distância do texto à borda direita do botão dentro da caixa do mainnav.*/
+		padding-bottom: 5px;/*Distância do texto à borda inferior do botão dentro da caixa do mainnav.*/
+		}
+		
+		
+		/*formatação do container contents*/
+		#contents { 
+        background: #FFFFFF;
+        height:435em;
+        margin:15px 15px 15px 15px;
+		border-radius:0px 0px 0px 0px;
+		border: 1px solid #9ACD32;
+		}
+		
+		/*formatação dos títulos do conteúdo*/		
+		#contents h1 {
+        text-align:justify;
+		color:black; 
+		font-style:normal;
+		font-size:2em;
+        font-family:Vivaldi;
+		padding:1px 1px 1px 1px;
+		
+		margin:5px 5px 5px 5px;
+		}
+		#contents h2 {
+        text-align:justify;
+		color:blue; 
+		font-style:normal;
+		font-size:1.5em;
+        font-family:Vivaldi;
+		padding:1px 1px 1px 1px;
+		margin:10px 10px 10px 0px;
+		}
+		
+			
+		#contents p {
+        text-indent:0px;/*Identação do texto dos parágrafos dentro de contents*/	
+		text-align:justify;
+		color:black; 
+		font-style:normal;
+		font-size:1em;
+        font-family:Arial Narrow;
+		margin:10px 30px 30px 10px;
+		}
+		
+		p::first-letter {
+        font-size: 200%;
+        color: black;
+		font-family:Vivaldi;
+        }
+		
+		/*formatação do container menu*/	
+		#menu{ 
+        background-image: url("21.jpg");
+		background-repeat:repeat;
+		background-position: center center;
+		background-attachment:fixed;
+        width:17em;
+        height: 433em;
+		float:left;
+       	margin:15px 30px;/*Distância entre a borda superior e esquerda do container menu e a borda superior e esquerda do container contents. Não vai adiantar ter margem direita.*/	
+		border-radius:0px 0px 0px 0px;
+		border: 1px solid #9ACD32;
+		position:relative;
+        padding-top: 0px;/*Distância do texto à borda superior do botão dentro da caixa do mainnav.*/
+        padding-left: 0px;/*Distância do texto à borda esquerda do botão dentro da caixa do mainnav.*/
+        padding-right:0px;/*Distância do texto à borda direita do botão dentro da caixa do mainnav.*/
+		padding-bottom: 0px;/*Distância do texto à borda inferior do botão dentro da caixa do mainnav.*/
+		
+		}
+
+		#menu ul{/*formatação do ul, dentro do container menu. Observe que a ul fica circundada por uma caixa.*/	 
+		/*background:white;/*Cor do fundo da ul, contida no menu.*/
+		list-style-type: none;
+		/*border: 1px solid #9ACD32;*/
+		margin:5px 1px 5px 5px;/*Distância entre a borda superior e esquerda da caixa da ul e borda superior e esquerda do container menu. Não vai adiantar ter margem direita.*/
+		padding-top: 40px;/*Distância do texto à borda superior do container menu.*/
+        padding-left: 40x;/*Distância do texto à borda esquerda do container menu.*/
+        padding-right:40px;/*Distância do texto à borda direita do container menu.*/
+		padding-bottom: 40px;/*Distância do texto à borda inferior do container menu.*/
+		
+		}
+		
+		#menu ul li {
+        background-color:#DDC797;
+		text-decoration: none;
+        margin:5px 0px 0px 0px;/*Distância vertical entre os botões da "li" do container menu.*/
+		border-radius: 4px 4px 4px 4px;/*Arredondamento da boorda dos botões da "li" do container menu.*/
+        /*border: 1px solid #9ACD32;*/
+		padding-top: 5px;/*Distância do texto à borda superior do container menu.*/
+        padding-left: 5px;/*Distância do texto à borda esquerda do container menu.*/
+        padding-right:5px;/*Distância do texto à borda direita do container menu.*/
+		padding-bottom: 5px;/*Distância do texto à borda inferior do container menu.*/
+		}
+		
+		#menu ul li a {
+        
+		font: 15px Verdana, sans-serif;
+		color: black;/*Cor da fonte dos botões do menu horizontal*/
+        border-radius: 4px 4px 4px 4px;/*arredondamento dos cantos dos botões horizontais*/
+		margin:1px 1px 1px 1px;
+		list-style-type: none;
+		/*background-color: green;/*Cor de fundo dos botões horizontais.*/
+        text-decoration: none;
+		/*border: 1px solid #9ACD32;*/
+		padding-top: 0px;/*Distância do texto à borda superior do container menu.*/
+        padding-left: 0px;/*Distância do texto à borda esquerda do container menu.*/
+        padding-right:0px;/*Distância do texto à borda direita do container menu.*/
+		padding-bottom: 0px;/*Distância do texto à borda inferior do container menu.*/
+		}
+		
+		#menu ul li a:visited {
+        color:green;/*Cor da fonte do Link, depois de visitado*/
+        background-color:transparent;
+        text-decoration:none;
+        }
+		
+		#menu ul li a:hover {
+        color:blue;/*Cor da fonte do Link, quando se arrasta o mouse sobre ele*/
+        background-color:transparent;
+        text-decoration:underline;
+		border: none;
+        }
+		
+		#menu ul li a:active {
+        color:#ff0000;
+        background-color:transparent;
+        text-decoration:none;
+        }
+		
+		
+		#footer { 
+        background-image: url("21.jpg");
+		background-repeat:repeat;
+		background-position: center center;
+		background-attachment:fixed;
+        height: 4.5em;
+        text-align: right;
+        padding:3px 10px 3px 0;
+		margin:15px 15px 15px 15px;
+		border: 1px solid #9ACD32;
+        }
+ 
+        
+		
+		
+        /*formatação dos links*/
+		a:link {
+        color:red;/*Cor da fonte do Link*/
+        background-color:transparent;/*Cor de fundo do link*/
+        text-decoration:none;
+        }
+        a:visited {
+        color:blue;/*Cor da fonte do Link, depois de visitado*/
+        background-color:transparent;
+        text-decoration:none;
+        }
+        a:hover {
+        color:green;/*Cor da fonte do Link, quando se arrasta o mouse sobre ele*/
+        background-color:transparent;
+        text-decoration:underline;
+		border: none;
+        }
+        a:active {
+        color:#ff0000;
+        background-color:transparent;
+        text-decoration:none;
+        }
+       
+
+
+
+
+
+	   /*formatação da galeria*/
+		div.img {
+        margin: 15px;
+        padding: 1px;
+        border: 1px solid #0000ff;
+        height: auto;
+        width: auto;
+        float: left;
+        display: inline;
+	    text-align: center;
+		
+        }
+
+        
+        div.img img {
+        display: inline;
+        margin: 2px;
+        border: 1px solid #ffffff;
+        }
+
+        div.img a:hover img {
+        border: 1px solid #0000ff;
+        }
+
+        div.desc {
+        text-align: center;
+        font-weight: normal;
+        width: 1x;
+        margin: 1px;
+        }
+		
+		/*formatação da tag <adress>*/
+		address {
+        margin-top: 0px;
+        padding-top: 0px;
+        
+		}
+                
+                 /*.fb-comments {
+                   margin:15px 15px 15px 15px;  
+                   padding-top: 0px;
+                   padding-left: 0px;
+                   padding-right: 0px;
+		           padding-bottom: 0px;
+                   border: 1px solid grey;
+                 }	    
+		
+		
+		         .fb-like-box {
+                   margin:15px 15px 15px 15px; 
+                   padding-top: 0px;
+                   padding-left: 0px;
+                   padding-right:0px;
+		           padding-bottom: 0px;
+                   border: 1px solid grey;
+                 }	*/    
+		
+
+
+ 
+	   
